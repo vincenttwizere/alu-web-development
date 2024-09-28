@@ -1,12 +1,10 @@
-
 #!/usr/bin/env python3
-"""Archemy User class"""
+# Archemy User class
 
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
 
 Base = declarative_base()
-
 
 class User(Base):
     """User class"""
